@@ -182,8 +182,9 @@ examples/tarnwick  fictional sample knowledge base used by the demo
 
 ## Status and roadmap
 
-This is a working prototype for demos and pilots, not yet a hosted product. Known gaps, in the order customers are
-likely to ask for them:
+This is a working prototype, built to explore how AI agents could pay for knowledge. It is not under active
+development, so treat the list below as ideas for anyone who forks it. Known gaps, in the order customers are likely
+to ask for them:
 
 1. **Self-serve credit top-ups** with Stripe Checkout and invoices. Today the publisher adds credit with the CLI.
 2. **Subscriber passthrough:** give existing subscribers keys on an "included" plan, so the new channel does not cannibalise subscriptions. This is how LSEG, FactSet and S&P expose data over MCP today.
