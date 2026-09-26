@@ -1,0 +1,27 @@
+{
+  "name": "paid-mcp-gate",
+  "version": "0.1.0",
+  "description": "Turn a proprietary knowledge base into a paid MCP server that AI agents pay per query to use.",
+  "license": "MIT",
+  "author": "Daniel Hurník",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/cli.ts serve",
+    "pmg": "node --disable-warning=ExperimentalWarning src/cli.ts",
+    "demo": "node --disable-warning=ExperimentalWarning scripts/demo.ts",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "typescript": "^7.0.2"
+  }
+}

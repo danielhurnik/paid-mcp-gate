@@ -1,0 +1,44 @@
+{
+  "publisher": {
+    "name": "Tarnwick Pump Reliability Lab (fictional)",
+    "url": "https://kb.tarnwick.example",
+    "contact": "licensing@tarnwick.example"
+  },
+  "offering": {
+    "title": "Tarnwick Pump Reliability Knowledge Base",
+    "description": "Field-proven pump troubleshooting guides, root-cause failure analyses and reliability benchmarks from 25 years of plant investigations, licensed per query to AI agents. This is fictional sample content for the paid-mcp-gate demo.",
+    "buy_credits_url": "https://kb.tarnwick.example/buy"
+  },
+  "knowledge": { "path": "kb" },
+  "collections": {
+    "about": { "title": "About this knowledge base", "fetch_usd": 0 },
+    "field-guides": {
+      "title": "Field guides",
+      "description": "Short, practical checklists for technicians at the pump.",
+      "fetch_usd": 0.05
+    },
+    "failure-analyses": {
+      "title": "Failure analyses",
+      "description": "Anonymised root-cause investigations with evidence, root cause and the fixes that worked.",
+      "fetch_usd": 0.25
+    },
+    "benchmarks": {
+      "title": "Reliability benchmarks",
+      "description": "Proprietary statistics from the lab's installed-base survey.",
+      "fetch_usd": 1.5
+    }
+  },
+  "pricing": { "default_fetch_usd": 0.1, "passage_fraction": 0.25, "passage_min_usd": 0.01 },
+  "license": {
+    "name": "Tarnwick per-query reference license",
+    "url": "https://kb.tarnwick.example/license",
+    "ai_training": "prohibited",
+    "redistribution": "prohibited",
+    "max_cache_hours": 24,
+    "attribution": "required"
+  },
+  "access": { "entitlement_hours": 24, "teaser_chars": 160 },
+  "limits": { "daily_spend_cap_usd": 50, "max_new_documents_per_day": 100 },
+  "server": { "port": 8787 },
+  "database": { "path": "data/gate.db" }
+}
